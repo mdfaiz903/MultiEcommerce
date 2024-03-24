@@ -38,14 +38,17 @@
                 </tr>
               </thead>
               <tbody class="border-0">
+                
+                  
+            
                 <tr>
                   <th class="ps-0 py-3 border-light" scope="row">
                     <div class="d-flex align-items-center"><a class="reset-anchor d-block animsition-link" href="detail.html"><img src="{% static 'assest/img/product-detail-3.jpg' %}" alt="..." width="70"/></a>
-                      <div class="ms-3"><strong class="h6"><a class="reset-anchor animsition-link" href="detail.html">Red digital smartwatch</a></strong></div>
+                      <div class="ms-3"><strong class="h6"><a class="reset-anchor animsition-link" href="detail.html">{{PRODUCTSLIST.name}}</a></strong></div>
                     </div>
                   </th>
                   <td class="p-3 align-middle border-light">
-                    <p class="mb-0 small">$250</p>
+                    <p class="mb-0 small">{{PRODUCTSLIST.price}}</p>
                   </td>
                   <td class="p-3 align-middle border-light">
                     <div class="border d-flex align-items-center justify-content-between px-3"><span class="small text-uppercase text-gray headings-font-family">Quantity</span>
